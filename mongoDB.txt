@@ -1,0 +1,9 @@
+mongod --dbpath Z:\Develop\Bin\MongoDB\Server\4.2\data --logpath Z:\Develop\Bin\MongoDB\Server\4.2\mongod.log
+
+
+mongod --config "C:\Program Files\MongoDB\Server\4.2\mongod.cfg"
+
+
+mongod --dbpath "C:\Program Files\MongoDB\Server\4.2\data"
+
+mongoimport --db market --collection stocks ./stocks.json

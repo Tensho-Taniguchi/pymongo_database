@@ -1,0 +1,40 @@
+                                        
+***********************************     
+CS499_001.py                            
+***********************************     
+01:Insert Section-----------------------------------
+Insert Successful
+<pymongo.results.InsertOneResult object at 0x0000027315613540>
+Read the inserted document...
+{'_id': ObjectId('5edccea8d8de786b9a75fd57'), 'date': '2020-04-13', 'Ticker': 'XYZ', 'Volume': '0'}
+----------------------------------------------------
+
+02:Update Section-----------------------------------
+<pymongo.results.UpdateResult object at 0x0000027315AAAD40>
+{'_id': ObjectId('5edccea8d8de786b9a75fd57'), 'date': '2020-04-13', 'Ticker': 'XYZ', 'Volume': '153'}
+----------------------------------------------------
+
+03:Delete Section-----------------------------------
+Before...
+{'_id': ObjectId('5edccea8d8de786b9a75fd57'), 'date': '2020-04-13', 'Ticker': 'XYZ', 'Volume': '153'}
+
+Delete Operation...
+<pymongo.results.DeleteResult object at 0x0000027315AAA940>
+----------------------------------------------------
+
+                                        
+***********************************     
+CS499_002.py                            
+***********************************     
+----------------------------------------------------
+195
+----------------------------------------------------
+
+----------------------------------------------------
+['A', 'AIQ', 'ALR', 'BGMD', 'BRLI', 'CBMX', 'CO', 'CVD', 'DGX', 'ENZ', 'FMI', 'GHDX', 'HSKA', 'ICLR', 'IRWD', 'LH', 'LIFE', 'LPDX', 'MTD', 'NDZ', 'NEO', 'NVDQ', 'ONVO', 'PKI', 'PMD', 'PRXL', 'Q', 'RDNT', 'RGDX', 'ROSG', 'SPEX', 'TEAR', 'TMO', 'WAT', 'WX']
+----------------------------------------------------
+
+----------------------------------------------------
+['Diagnostic Substances : 506.85', 'Specialized Health Services : 1923.1', 'Drug Manufacturers - Major : 26805.45', 'Medical Laboratories & Research : 2495.22', 'Drugs - Generic : 1608.18', 'Long-Term Care Facilities : 524.15', 'Hospitals : 1246.46', 'Medical Instruments & Supplies : 3512.92', 'Home Health Care : 193.44', 'Medical Practitioners : 19.24', 'Biotechnology : 13893.72', 'Drug Manufacturers - Other : 3792.9300000000003', 'Medical Appliances & Equipment : 8336.6', 'Health Care Plans : 3280.2200000000003', 'Drug Delivery : 1730.4499999999998', 'Drug Related Products : 309.06']
+----------------------------------------------------
+
